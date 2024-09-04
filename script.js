@@ -58,5 +58,5 @@ for (let row = 1; row <= numRows; row++) {
 
 // Event handling to enable Cell Input
 table.addEventListener("input", (event) => {
-  // Handle Cell Input - Try out yourselves!
+  // Handle Cell Input - will do it latter
 });
