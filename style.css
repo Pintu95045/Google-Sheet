@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f3f3f3;
+}
+
+#spreadsheet {
+  width: 80%;
+  margin: 0 auto;
+  overflow: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f0f8ff; /* Light blue similar to Excel header */
+}
+
+td {
+  text-align: left;
+  background-color: #fff;
+}
+
+td[contenteditable="true"]:focus {
+  outline: none;
+  background-color: #e8f0fe; /* Light highlight color when cell is active */
+}
